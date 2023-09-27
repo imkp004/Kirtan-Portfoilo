@@ -1,0 +1,113 @@
+.h4{
+  font-weight: 550;
+  width: 600px;
+  height: 100px;
+  text-align: center;
+  padding-left: 165px;
+}
+
+.H41{
+ text-align: left;
+ padding: 0px;
+}
+
+.gallery .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 100px;
+  }
+  
+  .gallery .box-container .box{
+    overflow: hidden;
+    box-shadow: 0 16px 32px rgba(0,0,0,.1);
+    border: 10px solid whitesmoke;
+    border-radius: 8px;
+    flex:1 1 250px;
+    height: 250px;
+    position: relative;
+  }
+  
+  .gallery .box-container .box img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+  }
+  
+  .gallery .box-container .box .content{
+    position: absolute;
+    top:-200%; left:0;
+    height: 100%;
+    width:100%;
+    text-align: center;
+    background:rgba(0,0,0,.7);
+    padding-top: 80px;
+  }
+  
+  .gallery .box-container .box:hover .content{
+    top:0;
+  }
+  
+  .gallery .box-container .box .content h3{
+    font-size: 22px;
+    color:white
+  }
+  
+  .gallery .box-container .box .content p{
+    font-size: 18px;
+    color:rgb(179, 164, 164);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .form form{
+    padding-top: 1px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec{
+    width: 60%;
+    margin: auto;
+  }
+
+  .form input{
+    height: 48px;
+    width: 500px;
+    padding: 0 16px;
+    margin-bottom: 32px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: 17px;
+  }
+
+  .form input:placeholder-shown{
+    font-size: 17px;
+  }
+
+ .buttons input{
+    height: 38px;
+    width: 200px;
+    margin-left: 175px;
+    margin-right: 175px;
+    border-radius: 10px;
+    border: 3px solid black;
+ }
+
+  .form textarea{
+    height: 120px;
+    width: 500px;
+    padding: 0 16px;
+    margin-bottom: 32px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  
+  .form textarea:placeholder-shown{
+    padding-top: 10px;
+    font-size: 20px;
+  }

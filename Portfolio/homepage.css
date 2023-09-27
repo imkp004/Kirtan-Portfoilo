@@ -1,0 +1,107 @@
+body, html {
+	margin: auto;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;
+	height: 100%;
+}
+
+html{
+    background-color: antiquewhite;
+}
+
+body{
+    background-color: rgb(209, 238, 244);
+}
+
+footer p a{
+    color: white;
+}
+.main{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    text-align: center;
+}
+
+
+.menu{
+    width: 27%;
+    background-color: rgb(9, 23, 67);
+}
+
+.s1{
+    margin-top: 162px;
+}
+.s1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    display: list-item;
+    padding: 20px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.s1 :hover{
+    background-color: rgb(15, 31, 205);
+    transition: 0.5s;
+    letter-spacing: 4px;
+}
+
+.s2{
+    width: 100%;
+    height: 30vh;
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-position: right 15% bottom 60%;
+    background-color: rgba(250, 206, 85, 0.74);
+}
+
+.body{
+    width: 300px;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 25px;
+    background-color: bisque;
+}
+
+.banner-text h1{
+    color: white;
+    letter-spacing: 4px;
+    padding: 10px;
+    background-color: black;
+}
+
+.banner-text h2{
+    color: black;
+    letter-spacing: 4px;
+    padding-bottom: 15px;
+}
+
+.info{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.info1{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.info p{
+    text-align: center;
+    margin-right: 110px;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: -18px;
+}

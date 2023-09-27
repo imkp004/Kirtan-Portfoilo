@@ -1,0 +1,84 @@
+body, html {
+	margin: auto;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;
+	max-height: 100%;
+}
+
+hr{
+    width: 500px;
+}
+
+.menuu{
+    width: 100%;
+    background-color: rgb(9, 23, 67);
+}
+
+
+.d{
+    background-color: rgb(209, 238, 244);
+}
+.mainn{
+    width: 840px;
+    height: 1950px;
+    display: flex;
+    text-align: center;
+}
+
+.s2{
+    width: 100%;
+    height: 30vh;
+    background-image: url(image1.jpg);
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-position: right 15% bottom 60%;
+    background-color: rgba(250, 206, 85, 0.74);
+}
+
+.align{
+    margin-top: 10px;
+    text-align: justify;
+}
+.align h3{
+    text-align: center;
+}
+
+.align p{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.align ul{
+    padding-left: 65px;
+}
+
+.w1{
+    margin-top: 100px;
+}
+
+.align1{
+    margin-top: 50px;
+    text-align: justify;
+}
+.align1 h3{
+    text-align: center;
+}
+
+.align1 p{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.align1 img{
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 5px;
+}
+
+.align1 a{
+    color: black;
+}
+

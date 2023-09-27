@@ -1,0 +1,103 @@
+body, html {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;
+	height: 100%;
+}
+
+.float-img{
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: solid black 2px;
+    padding: 2px
+}
+
+.navBar {
+	overflow: hidden;
+	background-color: black;
+  }
+  
+  .navBar a {
+	float: left;
+	color: white;
+	padding: 15px 20px;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+  }
+  
+  .navBar a:hover {
+	background-color: yellow;
+	color: black;
+  }
+  
+
+body > header {
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+
+}
+
+
+
+ol {
+	list-style-type: numbers;
+  }
+
+
+body > footer {
+	width: 100%;
+	clear: left;
+}
+
+
+  
+  .hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("resturantimg.jpg");
+	height: 25%;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+  }
+  
+  h1 { text-align: center }
+
+
+div.c {
+	text-align: center;
+    padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+section{
+	background-color:aliceblue;
+	padding: 10px 10px 10px 10px;
+ }
+
+html{
+	background-image: url(utinsils.png);
+ }
+ 
+ header, footer{
+	background-color: yellow;
+ }
+
+ h1 { 
+	margin: 30px 0px 20px 0px;
+	text-align: center;
+	font-size: 55px;
+	text-shadow: 2px 1px 5px blue;
+	text-transform: uppercase;
+}
+
+header{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding: auto;	
+}

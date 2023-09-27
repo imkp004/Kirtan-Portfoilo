@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Booking</title>
+   <link rel="stylesheet" href="style.css">
+   <a name="top"></a>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+   <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap" rel="stylesheet">
+
+
+   <meta name="viewport" content="width=device-width">
+   <link rel="stylesheet" href="main.css">
+   <link rel="stylesheet" href="Booking.css">
+   <link rel="stylesheet" href="responsive.css" media="screen and (max-width: 900px)">
+</head>
+<body>
+
+<br>
+    <div>
+    <nav><div class="logo"><h1>Delhi</h1></div>
+
+        <div class="menu">
+        <a class="lin" href="home.html">Home</a>
+        <a class="lin" href="faq.html">FAQ</a>
+        <a class="lin" href="Service.html">Service</a>
+        <a href="Gallery_Contact.html">Gallery & Contact</a>
+    </div>
+     </nav>
+    </div>
+
+    <header>
+    <section> 
+        <br>
+        <h3 class="class">TRAVEL DELHI</h3> 
+    </section> 
+    </header>
+
+
+    <section class="aboutus">
+            
+                <h2 class="">BOOK YOUR TRIP</h2>
+                <h4 class="h4">Make your early booking to travel safe and esay by simply filling up those box
+                    below and register. We provide service to travel around India so, that you 
+                    can freely enjoy your vacation or a little trip without worring about booking flights,
+                    hotel, Resturant & Food too. 
+                </h4>
+
+                <h4 class="h4">Privacy Policy - The form that you will be filling will remain confidential. Only 
+                    our company will review the information that you will provide us so, hat we can make your booking and your travel
+                    easier.
+                </h4>
+
+                <hr class="hr">
+
+
+
+
+                <form id="survey" action="http://www.example.com/booking/survey" method="post">
+
+                    <fieldset id="custInfo">
+              
+                    <legend>Visitor Information</legend>
+              
+                    <div class="formRow1">
+                    <label for="name">Name*</label>
+                    <input name="custName" id="name" type="text" placeholder="FULL NAME" required>
+                    </div>
+              
+                    <div class="formRow1">
+                    <label for="street">Street Address</label>
+                    <input name="custStreet" id="street" type="text" placeholder="Street, State, Country, Postal Code"/>
+                    </div>
+              
+                    <div class="formRow1">
+                    <label for="phone">Phone Number</label>
+                    <input name="custPhone" id="phone" type="text" placeholder="(111) 222-3333" pattern="^\d{10}$|^(\(\d{3}\)\s*)?d{3}[\s-]?\d{4}$"/>
+                    </div>
+              
+                    <div class="formRow1">
+                    <label for="mail">E-mail</label>
+                    <input name="custEmail" id="mail" type="email" placeholder="1111@example.com"/>
+                    </div>
+
+                    <div class="formRow1">
+                        <label for="visit">Arrival</label>
+                        <input name="visitDate" id="visit" type="date"/>
+                        </div>
+
+                    <div class="formRow1">
+                        <label for="visit">Departure</label>
+                        <input name="visitDate" id="visit" type="date"/>
+                        </div>
+              
+                    </fieldset>
+
+
+
+              
+                    <fieldset id="expInfo">
+              
+                    <legend>Suggestions</legend>
+              
+            
+              
+                    
+              
+                    <div class="formRow">
+                        <label for="info">Do you want us to book you<br />(select all that apply)</label>
+                        <select name="infoSrc" id="info" size="5" multiple>
+                           <option value="internet">Hotel</option>
+                           <option value="mag">Resturant Booking</option>
+                           <option value="news">Commuter Vehicle</option>
+                           <option value="word">Plane Tickets</option>
+                           <option value="other">Tour Guide</option>
+                        </select>
+                     </div>
+
+                    <div class="formRow">
+                       <label for="order">Place You like to Visit the Most?</label>
+                       <select name="orderType" id="order">
+                          <option value="order1">Taj Mahal</option>
+                          <option value="order2">Red Fort</option>
+                          <option value="order3" selected>New Delhi</option>
+                          <option value="order4">Lotus Temple</option>
+                          <option value="order4">Agra</option>
+                          <option value="order4">Akshardham Temple</option>
+                          <option value="order4">Tomb</option>
+                          <option value="order4">Connaught Palace</option>
+                          <option value="order4">Dilli haat</option>
+                          <option value="order4">Snow World</option>
+                       </select>
+                    </div>
+              
+                    <div class="formRow">
+                       <label>Travelling by?</label>
+                       <fieldset class="optGroup">
+                        <div>
+                          <label for="fYes">Car</label>
+                          <input name="sFriend" id="fYes" value="yes" type="radio" /></div>
+                          <div>
+                          <label for="fNO">Plane</label>
+                          <input name="sFriend" id="fNo" value="no" type="radio" /></div>
+                          <div>
+                          <label for="fNO">Bus</label>
+                          <input name="sFriend" id="fNo" value="no" type="radio" /></div>
+                          <div>
+                          <label for="fNO">Other</label>
+                          <input name="sFriend" id="fNo" value="no" type="radio" /></div>
+                       </fieldset>
+                    </div>
+              
+                    <div class="formRow">
+                       <label>Your Budget?</label>
+                       <fieldset class="optGroup">
+                        <div>
+                          <label for="cYes">$1000 - $5000</label>
+                          <input name="oFriend" id="cYes" value="yes" type="radio" /></div>
+                          <div>
+                          <label for="cNO">$5000 - $7500</label>
+                          <input name="oFriend" id="cNo" value="no" type="radio" /></div>
+                          <div>
+                          <label for="cNO">$7500 - $10,000</label>
+                          <input name="oFriend" id="cNo" value="no" type="radio" /></div>
+                          <div>
+                          <label for="cNO">$10,000 - $15,000</label>
+                          <input name="oFriend" id="cNo" value="no" type="radio" /></div>
+                       </fieldset>
+                    </div>
+              
+
+                    <div class="formRow">
+                        <label for="dineSpin">How many Travellers?</label>
+                        <input name="dineOut" id="dineSpin" type="number" value="1" step="1" min="0" max="20" />
+                     </div>
+               
+                     <div class="checkbox1">
+                     <input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+                     <label for="mailCB">Email Confirmation</label>
+                     </div>
+
+                     <div class="checkbox">
+                     <input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+                     <label for="mailCB">Text Confirmation</label>
+                     </div>
+
+                     <div class="checkbox1">
+                     <input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+                     <label for="mailCB">Booking Suggestions</label>
+                     </div>
+
+                     <div class="checkbox">
+                     <input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+                     <label for="mailCB">Trip Planner</label>
+                     </div>
+
+                     <div class="checkbox1">
+                     <input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+                     <label for="mailCB">Privacy & Policy</label>
+                    </div>
+
+                    <div class="checkbox">
+                     <input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+                     <label for="mailCB"> Unsubscribe</label>
+                    </div>
+
+                    <div class="checkbox1">
+                     <input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+                     <label for="mailCB">Special Deals</label>
+                    </div>
+
+                      <div class="checkbox">
+                     <input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+                     <label for="mailCB">Coupons</label>
+                      </div>
+              
+                      <div class="checkbox2">
+                    <label for="commBox">Include Details on what you want that we can provide</label>
+                    <textarea name="custExp" id="commBox"></textarea>
+                      </div>
+              
+                    </fieldset>
+              
+                    <div id="buttons">  
+                       <input type="submit" value="Book">
+                       <input type="reset" value="Reset">
+                    </div>
+              
+                   </form>
+                
+                
+       </section>
+
+        <hr>
+        <div class="footer"><div class="section-inner">
+            <h2>COMPANY CONTACT INFORMATION</h2>
+            <h4 class="H41">Location: 123 nnnnnnn Dr, United States, 12345, MA</h4>
+            <h4 class="H41">Contact: (123)-456-7891</h4>
+            <h4 class="H41">E-mail: KIRTANPATEL@GMAIL.COM</h4>
+
+         <footer>    <p>  <a href="#top">Back to top of page</a> </p>
+              <p> <a name="Contact"></a> </p>
+              <p>Email to: <a href=mailto:xxxx@xxxxx.com?subject="subject text">Kirtan Patel</a></p>
+                <p>&copy; COPYRIGHT 11/25/2022</p>
+            <p>Source of Iamges: <ol>
+                    <li>https://thedailyvoice.in/heres-why-sansad-bhavan-is-one-of-the-10-splendid-parliament-buildings-of-the-world/</li>
+                    <li>https://so.city/delhi/article/iconic-delhi-landmarks-awash-in-night-light-5-best-places-for-night-photography</li>
+                    <li>https://www.financialexpress.com/lifestyle/dilli-ki-raat-redefined-a-roadmap-for-delhis-night-economy/2516096/</li>
+                </ol> 
+                <a name="Location"></a>
+            </p>
+        <p>&#9733; This page is Designed By Kirtan Patel &#9733;</p></footer> 
+            
+        </div></div>
+        
+    </body>
+    </html>

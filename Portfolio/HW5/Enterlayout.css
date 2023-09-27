@@ -1,0 +1,81 @@
+/* Kirtan Patel 10/26/2022 */
+@charset "utf-8";
+
+table.schedule{
+   border: 8px solid;
+   font-size: 20px;
+   width: 100%;
+   border-collapse: collapse;
+}
+
+table.schedule th, table.schedule td{
+   border: 2px solid black;
+   padding: 15px;
+   vertical-align: center;
+   font-weight: bolder;
+}
+
+table.schedule thead{
+   background: rgb(26, 0, 153);
+   color: white;
+}
+
+table.schedule tfoot{
+   background: black;
+   color: white;
+   text-align: center;
+}
+
+col#firstCol{
+   background: rgb(141, 195, 240);
+   width: 15%;
+}
+
+col.OatherCols{
+   background: rgb(217, 217, 223);
+   width: 20%;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+ h3{
+    text-align: center;
+ }
+
+ .image{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(233, 27, 27, 0.5)), url("liquid_blue_band.jpeg");
+   text-align: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+ }
+
+ .link{
+   text-decoration: none;
+ } 
+
+ html{
+   background-image: url(utinsils.png);
+}
+
+header, footer{
+   background-color: yellow;
+}
+
+header{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding: auto;	
+}
+
+section > h3{
+   text-align: center;
+   padding-top: 10px;
+}
